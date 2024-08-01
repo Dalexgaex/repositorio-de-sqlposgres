@@ -22,3 +22,4 @@ SELECT id, nombre, email, password_encrypted FROM Usuarios;
 -- Paso 5: Remover la columna antigua y renombrar la columna cifrada
 ALTER TABLE Usuarios DROP COLUMN password;
 ALTER TABLE Usuarios RENAME COLUMN password_encrypted TO password;
+
